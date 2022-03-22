@@ -12,12 +12,12 @@
     <script src="https://kit.fontawesome.com/4b02408238.js" crossorigin="anonymous"></script>
 
     <!--Estilo customizado-->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./finans/css/estilo.css">
 
     <title>Finans - financas pessoais</title>
   </head>
    
-  <body>
+  <body">
     <header>
       <nav class="navbar navbar-expand-sm navbar-light bg-warning">
         <div class="container">
@@ -25,11 +25,11 @@
             <img src="./finans/img/logo.png" width="142">
           </a>
 
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
               <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="nav-target">
+          <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                       <a href="" class="nav-link">Home</a>
@@ -43,13 +43,52 @@
                   <li class="nav-item">
                       <a href="" class="nav-link">Preco</a>
                   </li>
-
-                  <button class="btn btn-outline-light ml-4">Entrar</button>
+                  <button class="btn btn-outline-light ml-sm-4">Entrar</button>
               </ul>            
           </div>
         </div>
       </nav>
     </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">Suas contas, descomplicadas</h1>
+              <p>
+                Usado por mias de 1 milhao de pessoas, o Finans é uma ferramenta online 
+                que vai facilitar sua vida financeira. 
+              </p>         
+          
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                  <botton type="button" class="btn btn-primary">Cadastra-se</botton>
+                  </div>
+                </div>
+              </form>
+              
+              <p> Disponivel para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fa-brands fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fa-brands fa-apple fa-lg"></i>
+                </a>
+              </p>
+
+            </div>             
+          </div>
+          <div  class="col-sm-6">
+            <img src="./finans/img/capa-mulher.png">
+          </div>          
+        </div>  
+      </div>
+
+    </section>
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
